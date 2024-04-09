@@ -1,0 +1,10 @@
+    <div style="height: 20vh;" id="internal"></div>
+    <h2 class="subTitle">Internal CSS</h2>
+    <br>
+    <p>
+        O internal CSS escreve-se dentro do &lthead&gt do documento HTML. <br>
+        Para começares a escrever, cria um elemento &ltstyle&gt dentro do &lthead&gt. 
+        Dentro do &ltstyle&gt fazes <a style="color:#f98b88;">seletores</a> que vão conter as regras que tu vais escrever.
+    </p>
+
+    

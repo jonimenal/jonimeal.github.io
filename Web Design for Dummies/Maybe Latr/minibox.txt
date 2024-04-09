@@ -1,0 +1,10 @@
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+
+        <div style="margin-left: 1em;">&lthead&gt</div>   
+        <div style="margin-left: 1em;">&lt/head&gt</div>
+        <div style="margin-left: 1em;">&ltbody&gt</div><br>
+        <div style="margin-left: 1em;">&lt/body&gt</div>  
+    
+
+    </div>   
+

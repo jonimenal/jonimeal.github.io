@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="Root/Magic/Style.css">
+    <script src="Root/Magic/Script.js"></script>
+</head>
+<body>
+    <barra>
+    <div id="mainCoolbar">
+        <div id="coolbar">
+            <a id="btn3" onmouseover="btnOverThree()" onmouseout="btnOutThree()" href="HTML.html">HTML</a>
+            <P>CSS</p>
+            <a id="btn5" onmouseover="btnOverFive()" onmouseout="btnOutFive()" href="JS.html">JS</a>
+        </div>    
+    </div>
+    </barra>
+
+    <start>
+        <div style="height: 30vh;" id="start"></div>
+        <h1 class="title"> CSS </h1>
+        <br><br>
+        <p>
+            O CSS (Cascading Style Sheets) é uma linguagem de estilização que é utilizada para,
+            como o nome diz, estilizar elementos HTML. <br>
+            De forma muito resumida, a maneira que tu escreves CSS é por regras. Regras que depois vais aplicar em elementos HTML.
+            <br><br>
+            Existem diversas formas de escrever CSS. Mas antes de falar sobre isso eu vou mostrar
+            os componentes mais importantes que formam um documento CSS.
+        </p>
+        <div style="height: 8vh;"></div>
+        <div class="selecao">
+            <a href="#elemento" id="selection">Seguinte</a>
+        </div>
+    </start>
+
+    <div style="height: 100vh;"></div>
+        
+    <elemento>
+        <div style="height: 25vh;" id="elemento"></div>
+        <h2 class="subTitle">Elemento &ltstyle&gt e propriedade "style"</h2>
+        <br>
+        <p>
+            O elemento &ltstyle&gt é um elemento HTML que se usa para poder escrever
+            código <a id="hilit">Internal CSS</a> <br>
+            Também existe a propriedade "style". Que coloca-se dentro de um elemento HTML para se
+            escrever <a id="hilit">Inline CSS</a>   
+        </p>
+        <br><br>
+        <h3>Exemplo de elemento <a id="hilit">&ltstyle&gt</a></h3>
+        <div id="miniBox" contenteditable="true" spellcheck="false">
+        
+            <div>&lthtml&gt</div>
+                <div style="margin-left: 1em;">&lthead&gt</div><br>
+
+                    <div style="margin-left: 2em;"><a id="hilit">&ltstyle&gt</a></div><br>
+
+                    <div style="margin-left: 2em;"><a id="hilit">&lt/style&gt</a></div><br>
+
+                <div style="margin-left: 1em;">&lt/head&gt</div>
+            ...
+        
+        </div>
+        <br><br>
+        <h3>Exemplo da propriedade <a id="hilit">"style"</a></h3>
+        <div id="miniBox" contenteditable="true" spellcheck="false">
+                
+            <div>&lthtml&gt</div>
+                <div style="margin-left: 1em;">&ltbody&gt</div><br>
+                    <div style="margin-left: 3em;">&ltp <a id="hilit">style</a>="regra: valor;"&gtexemplo de conteúdo&lt/p&gt</div><br>
+                <div style="margin-left: 1em;">&lt/body&gt</div>
+            ...
+        
+        </div>
+        <div style="height: 8vh;"></div>
+        <div class="selecao">
+            <a href="#top" id="selection" onmouseover="selectOver(x)" onmouseout="selectOut(x)">Anterior</a>
+            <a href="#seletores" id="selection">Seguinte</a>
+        </div>
+    </elemento>
+
+    <div style="height: 100vh;"></div>
+
+    <seletor>
+
+        <div style="height: 25vh;" id="seletores"></div>
+        <h2 class="subTitle">Seletores</h2>
+        <br>
+        <p>
+            Seletores são usados para defenir um conjunto de regras CSS. <br>
+            Quando escreves <a id="hilit">Internal CSS</a> ou <a id="hilit">External CSS</a> precisas de criar um seletor antes de escrever qualquer regra.<br>
+            <br>
+            <br>
+            Existem vários tipos de seletores:
+            <br>
+        </p>
+
+        <ul id="f"> 
+            <a href="#seletores"><li onmouseover="oneOver()" onmouseout="oneOut()" onclick="popOne()" id="one" style="margin:1vh 0px 1vh 0px ;">
+                Seletor TAG
+            </li></a>
+            <a href="#seletores"><li onmouseover="twoOver()" onmouseout="twoOut()"  onclick="popTwo()" id="two" style="margin:1vh 0px 1vh 0px ;">
+                Seletor CLASSE
+            </li></a>
+            <a href="#seletores"><li onmouseover="threeOver()" onmouseout="threeOut()" onclick="popThree()" id="three" style="margin:1vh 0px 1vh 0px ;">
+                Seletor ID
+            </li></a>
+        </ul>
+
+        <div style="height: 8vh;"></div>
+        <div class="selecao">
+            <a href="#elemento" id="selection">Anterior</a>
+            <a href="#regras" id="selection">Seguinte</a>
+        </div>
+    </seletor>
+    
+    <div style="height: 100vh;"></div>
+
+    <regras>
+        <div style="height: 25vh;" id="regras"></div>
+        <h2 class="subTitle">Regras</h2>
+        <br>
+        <p>
+            Regras CSS são propriedades que mudam a forma de um elemento HTML. <br>
+            O que estas regras fazem é basicamente dizer ao browser como ele deve apresentar o elemento HTML que está a ser afetado por essas regras.
+            <br><br>
+            Uma das formas que se escreve uma <a id="hilit">regra</a> CSS é assim:
+        </p>
+
+        <div id="miniBox" contenteditable="true" spellcheck="false">
+            <div>&ltstyle&gt</div>
+                <div style="margin-left: 1em;">.palavra{</div>
+                    <br>
+                    <div style="margin-left: 2em;"><a id="hilit">color:</a> #f98b88;</div>
+                    <br>
+                <div>}</div>
+            <div>&lt/style&gt</div>
+        </div>
+
+        <div style="height: 8vh;"></div>
+        <div class="selecao">
+                <a href="#seletores" id="selection">Anterior</a>
+                <a href="#valores" id="selection">Seguinte</a>
+        </div>
+    </regras>
+
+    <div style="height: 100vh;"></div>
+
+    <valoress>
+        <div style="height: 25vh;" id="valores"></div>
+        <h2 class="subTitle">Valores</h2>
+        <br>
+        <p>
+            Os valores são aplicados a seguir ao nome da regra. E são essenciais para regra ter qualquer utilidade. <br>
+            Existem regras que precisam de mais do que um valor para funcionar de forma correta.
+            <br> <br>
+            Pegando o exemplo anterior um <a id="hilit">valor</a> é representado da seguinte forma:
+        </p>
+        <div id="miniBox" contenteditable="true" spellcheck="false">
+            <div>&ltstyle&gt</div>
+                <div style="margin-left: 1em;">.palavra{</div>
+                    <br>
+                    <div style="margin-left: 2em;">color: <a id="hilit">#f98b88</a>;</div>
+                    <div style="margin-left: 2em;">border <a id="hilit">15px dotted #f98b88</a>;</div>
+                    <br>
+                <div>}</div>
+            <div>&lt/style&gt</div>
+        </div>
+
+
+
+
+        <div style="height: 8vh;"></div>
+        <div class="selecao">
+            <a href="#regras" id="selection">Anterior</a>
+            <a  href="#formatos" id="selection">Seguinte</a>
+        </div>
+    </valoress>
+
+    <div style="height: 100vh;"></div>
+
+    <escreverCss>
+        <div style="height: 25vh;" id="formatos"></div>
+        <h2 class="subTitle">Escrever CSS</h2>
+        <br>
+        <p>
+            Como eu disse anteriormente, existem três maneiras de escrever CSS.
+        </p>
+        <ul id="f">
+            <a href="#formatos"><li onmouseover="fourOver()" onmouseout="fourOut()" onclick="popFour()" id="four" style="margin:1vh 0px 1vh 0px ;">
+                Internal CSS
+            </li></a>
+            <a href="#formatos"><li onmouseover="fiveOver()" onmouseout="fiveOut()"  onclick="popFive()" id="five" style="margin:1vh 0px 1vh 0px ;">
+                External CSS
+            </li></a>
+            <a href="#formatos"><li onmouseover="sixOver()" onmouseout="sixOut()" onclick="popSix()" id="six" style="margin:1vh 0px 1vh 0px ;">
+                Inline CSS
+            </li></a>
+        </ul>
+
+
+
+        <div style="height: 8vh;"></div>
+        <div class="selecao">
+            <a href="#valores" id="selection">Anterior</a>
+        </div>
+    </escreverCss>
+
+
+    <div style="height: 60vh"></div>
+    <div style="display: flex; text-align: center; justify-content: center; flex-direction: column;">
+      <a href="#top" style="text-align: center; color: rgb(75, 75, 75); width: 100%; font-size: 1.5;">Voltar ao topo</a>
+    </div>
+    <div style="height: 25px;"></div>
+
+    
+
+</body>
+</html>

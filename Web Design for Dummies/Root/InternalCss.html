@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <link rel="stylesheet" href="Magic/Style.css">
+    <script src="Magic/Script.js"></script>
+</head>
+<body>
+    <div style="height: 14vh;" id="start"></div>
+    <h1 class="title"> Internal CSS </h1>
+    <br>
+    <p>
+        Internal CSS é a forma de se escrever CSS dentro do documento HTML. <br> <br>
+        <a id="hilit">Internal CSS</a> escreve-se dentro do elemento 
+        <a style="color: #af88f9;">&ltstyle&gt</a> e este tem de estar dentro do elemento <a style="color: #88b5f9;">&lthead&gt</a>. <br>
+        <a id="hilit">Internal CSS</a> tem <a style="color: #eef988">seletores</a>, <a style="color: #95f988">regras</a> e <a style="color: #8a88f9">valores</a>. 
+    </p>
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+        <div>&lthtml&gt</div>
+        <a style="color: #88b5f9;"><div style="margin-left: 1em;">&lthead&gt</div></a>  
+                <a style="color: #af88f9;"><div style="margin-left: 2em;">&ltstyle&gt</div><br></a>
+
+                        <div style="color: #f98b88;">
+                            <div style="margin-left: 3em;"><a style="color: #eef988">.falafel</a>{</div> 
+                                <div style="margin-left: 4em;"><a style="color: #95f988">margin</a>: <a style="color: #8a88f9">20px 0px 10px 100px</a>;</div>  
+                                <div style="margin-left: 4em;"><a style="color: #95f988">backgound-color</a>: <a style="color: #8a88f9">rgb(51, 51, 51)</a>;</div>
+                            <div style="margin-left: 3em;">}</div>
+                        </div>
+                        
+                    <br> 
+            <a style="color: #af88f9;"><div style="margin-left: 2em;">&lt/style&gt</div></a>  
+        <a style="color: #88b5f9;"><div style="margin-left: 1em;">&lt/head&gt</div></a>
+        <br>
+        <div style="margin-left: 1em;">&ltbody&gt</div>
+        <div style="margin-left: 1em;">&lt/body&gt</div>  
+    <div>&lt/html&gt</div>
+    </div>
+
+    <div style="height: 14vh;"></div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+        Existem três formas de escrever CSS
+        <ul>
+            <a href="#internal" onmouseover="oneOver()" onmouseout="oneOut()" id="one">
+                <li id="f">Internal CSS</li>
+            </a>
+            <a href="" onmouseover="twoOver()" onmouseout="twoOut()" id="two">
+                <li id="f">External CSS</li>
+            </a>
+            <a href="" onmouseover="threeOver()" onmouseout="threeOut()" id="three">
+                <li id="f">Inline CSS</li>
+            </a>
+        </ul>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="Root/Magic/Style.css">
+    <script src="Root/Magic/Script.js"></script>
+</head>
+<body>
+
+    <div id="mainCoolbar">
+        <div id="coolbar">
+            <a id="btn3" onmouseover="btnOverThree()" onmouseout="btnOutThree()" href="HTML.html">HTML</a>
+            <a id="btn4" onmouseover="btnOverFour()" onmouseout="btnOutFour()" href="CSS.html">CSS</a>
+            <p>JS</p>
+        </div>
+    </div>
+
+    <div style="height: 30vh;" id="start"></div>
+
+    <h1 class="title"> JavaScript </h1>
+    <br>
+    <br>
+    <p>
+        JavaScript é uma linguagem de programação implementada no HMTL. <br>
+        O JavaScript é utlilizado no HTML para criar a parte interativa do documento. Como botões,
+        perguntas de certo ou errado, ou até coisas mais complexas.
+
+    </p>
+
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+        <a  href="#variantes" id="selection">Seguinte</a>
+    </div>
+
+    <div style="height: 100vh;"></div>
+
+    <div style="height: 25vh;" id="variantes"></div>
+    <h2 class="subTitle">Variantes</h2>
+    <br>
+    <p>
+        Variantes são basicamente uma caixinha que guarda algum tipo de dado. <br>
+        A maneira de criares uma variante é simples! <br> Apenas precisas de usar o comando <a style="color: #f988c6;">let</a>
+        e dar o nome que quiseres à tua <a  style="color: #88f9b3;">variante</a> um dos 7 tipos de <a style="color: #a088f9;">dados</a> dentro da dita
+        variante.
+    </p>
+    <br>
+    <ol id="f">
+        <li style="color: #f98b88;">Boolean</li>
+        <li style="color: #f98b88;">null</li>
+        <li style="color: #f98b88;">undefied</li>
+        <li style="color: #f98b88;">Number</li>
+        <li style="color: #f98b88;">String</li>
+        <li style="color: #f98b88;">Symbol</li>
+        <li style="color: #f98b88;">Object</li>
+    </ol>
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+
+        <div>&ltscript&gt</div> <br>
+        
+            <div style="margin-left: 1em;"><a style="color: #f988c6;">let</a> <a style="color: #88f9b3;">nomeAtoa</a> = <a style="color: #f98b88;">26</a> </div> <br>
+
+        <div>&lt/script&gt</div>
+
+    </div>
+
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+        <a href="#top" id="selection">Anterior</a>
+        <a href="#funcoes" id="selection">Seguinte</a>
+    </div>
+
+    <div style="height: 100vh;"></div>
+
+    <div style="height: 25vh;" id="funcoes"></div>
+    <h2 class="subTitle">Funções</h2>
+    <br>
+    <p>
+        Funções são basicamente ações paradas. <br>
+        Quando crias uma função, estás a criar uma ação que só vai acontecer por um <i>trigger</i>
+        <br><br>
+        O primeiro passo para criares uma função é escrevendo o comando <a style="color: #f988c6;">function</a>, de seguida,
+        dás o <a style="color: #88f9b3;">nome</a> que quiseres à tua função (no final do nome tens de colocar "()"). E por último
+        escreves as <a style="color: #a088f9;">"ações"</a> que queiras que a tua função faça.
+    </p>
+
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+
+        <div>&ltscript&gt</div> <br>
+        
+            <div style="margin-left: 1em;"><a style="color: #f988c6;">function</a> <a style="color: #88f9b3;">nomeExemplo()</a>{<a style="color: #a088f9;"></a> </div> <br>
+            <br>
+                <div style="margin-left: 2em;"><a style="color: #a088f9;">document.getElementById("super").style.margin-left = "12px"</a></div> <br>
+            <div style="margin-left: 1em;">}</div>
+
+        <div>&lt/script&gt</div>
+
+    </div>
+    <br>
+    <p>
+        Depois de escreveres a tua função, tens de criar um <i>trigger</i>
+        que acione a função. Um <i>trigger</i> é um tipo de propriedade que colocas dentro 
+        de um elemento HTML. <br>
+        Para aplicares uma função em um elemento podes pensar como se estivesses a escrever uma frase: <br><br>
+        
+        <a style="color: #cf88f9">Quando eu carregar</a> no <a style="color: #9ef988">botão</a>, a <a style="color: #f9e888;">ação nomeExemplo() vai acionar.</a>
+    </p>
+
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+        <div>&lthtml&gt</div>
+            <div style="margin-left: 1em;">&lthead&gt</div>   
+            <div style="margin-left: 1em;">&lt/head&gt</div>
+            <div style="margin-left: 1em;">&ltbody&gt</div> <br>
+                <div style="margin-left: 2em;">
+                    <a style="color: #9ef988;">&ltbutton <a style="color: #cf88f9">onclick</a>="<a style="color: #f9e888;">nomeExemplo()</a>"&gt</a> Carrega em mim! <a style="color: #9ef988;">&lt/button&gt</a>
+                </div> <br>
+            <div style="margin-left: 1em;">&lt/body&gt</div>  
+        <div>&lt/html&gt</div>
+
+    </div>   
+
+
+
+
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+        <a href="#variantes" id="selection">Anterior</a>
+    </div>
+    
+
+    <div style="height: 12vh;"></div>
+    <div style="display: flex; text-align: center; justify-content: center; flex-direction: column;">
+      <a href="#top" style="text-align: center; color: rgb(75, 75, 75); width: 100%; font-size: 1.5;">Voltar ao topo</a>
+    </div>
+    <div style="height: 25px;"></div>
+
+</body>
+</html>
