@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="Root/Magic/Style.css">
+    <script src="Root/Magic/Script.js"></script>
+</head>
+<body>
+    <div id="mainCoolbar">
+        <div id="coolbar">
+            <p>HTML</p>
+            <a id="btn4" onmouseover="btnOverFour()" onmouseout="btnOutFour()" href="CSS.html">CSS</a>
+            <a id="btn5" onmouseover="btnOverFive()" onmouseout="btnOutFive()" href="JS.html">JS</a>
+        </div>
+
+    </div>
+
+    <div style="height: 30vh;" id="start"></div>
+
+    <h1 class="title"> HTML </h1>
+    <br>
+    <br>
+    <p> 
+        HTML (HyperText Markup Language) é uma linguagem de formatação que usa &ltelementos&gt
+        para a criação de páginas web. <br>
+        O HTML pode ser escrito até num bloco de notas, o browser
+        lê o código e tranforma-o no que pode ser visto agora mesmo.
+        <br>
+        <br>
+        Um ficheiro HTML tem 3 <b>elementos</b> principais, que são:
+        <ol>
+        <li id="f"><b>&lthtml&gt</b>:  Representa a raiz de um documento HTML;</li>
+        <li id="f"><b>&lthead&gt</b>:  Onde se escreve a parte do HTML que não é vista (como
+        código CSS ou JavaScript...);</li>
+        <li id="f"><b>&ltbody&gt</b>:  Corpo do documento HTML, onde é colocada maior parte dos elementos
+        e a parte que pode ser vista (tudo o que estás a ver agora faz parte do body)</li>
+        </ol>
+    </p>
+
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+    <a href="#prop" id="selection">Seguinte</a>
+    </div>
+
+    <div style="height: 100vh;"></div>
+
+    <div style="height: 25vh" id="prop"></div>
+    <h2 class="subTitle">Propriedades</h2>
+    <br>
+    <p>
+        Dentro dos elementos é possivel adicionar propriedades que mudam a forma como estes
+        elementos são lidos. <br> Dependendo do elemento HTML, propriedades podem ou não ser essenciais,
+        por exemplo: <br>
+        O elemento &lta&gt é usado para criar hiperligações que levam o usuário de um sítio a outro. 
+        Sem a propriedade "href", o elemento &lta&gt tem basicamente a mesma função de um elemento &ltp&gt <br>
+        Para colocar propriedades é simples! É só escrever a <a style="color: #f98b88">propriedade</a> que quiseres dentro da primeira 
+        parte elemento: 
+    </p>
+
+        <div id="miniBox" contenteditable="true" spellcheck="false">
+
+            <br><br>
+            <div> &lta <a style="color: #f98b88;">href</a>="exemplo de um link atoa"&gt carrega aqui &lt/a&gt </div>
+            <br><br>
+        </div>
+        <br>
+    
+        <p>Aqui está o exemplo em prática:</p>
+        <br>
+        <a style="text-decoration: underline ;color: #f98b88;" href="https://th.bing.com/th/id/R.3c3966dedae002463aa463dc6d1b7849?rik=G21EoDuY5TYIVw&pid=ImgRaw&r=0" target="_blank" id="f">carrega aqui</a>
+
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+        <a href="#start" id="selection">Anterior</a>
+        <a href="#valor" id="selection">Seguinte</a>
+    </div>
+
+    <div style="height: 100vh;"></div>
+
+    <div style="height: 25vh;" id="valor"></div>
+    <h2 class="subTitle">Valores</h2>
+    <br>
+    <p>
+        Para uma propriedade poder funcionar é necessario que ela tenha um valor válido. <br>
+        Os valores também são colocados de forma simples! Olhando para o exemplo anterior nós já
+        temos lá <br> representado um <a style="color:#f98b88">valor</a> para a propriedade "href":
+    </p>
+
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+
+        <br><br>
+        <div>&lta href=<a style="color: #f98b88">"exemplo de um link atoa"</a>&gt carrega aqui &lt/a&gt</div>
+        <br><br>
+    </div>
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+        <a href="#prop" id="selection">Anterior</a>
+        <a href="#content" id="selection">Seguinte</a>
+    </div>
+
+    <div style="height: 100vh;"></div>
+
+    <div style="height: 25vh;" id="content"></div>
+    <h2 class="subTitle">Conteúdo</h2>
+    <br>
+    <p>
+        Outra parte importante de um elemento HTML é o conteúdo que dentro dele é colocado. <br>
+        Existem diversos elementos que têm de ter algum tipo de conteúdo escrito dentro para que possam
+        ser visíveis no &ltbody&gt <br><br>
+
+        Olhando mais uma vez para o exemplo do &lta&gt o <a style="color:#f98b88">conteúdo</a> que está lá escrito é:
+    </p>
+
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+
+        <br><br>
+        &lta href="exemplo de um link atoa"&gt<a style="color:#f98b88">carrega aqui</a>&lt/a&gt
+        <br><br><br>
+    </div>
+
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+        <a href="#valor" id="selection">Anterior</a>
+        <a href="#resumo" id="selection">Seguinte</a>
+    </div>
+
+
+    <div style="height: 100vh;"></div>
+    <div style="height: 25vh;" id="resumo"></div>
+    <h2 class="subTitle">Síntese</h2>
+    <br>
+    <p>
+        A parte príncipal de um documento HTML são os seus <b>elementos</b> <br>
+        Um elemento HTML pode ser composto por: <br>
+        O próprio <a style="color: #f98b88;">elemento</a>, uma ou mais <a style="color: #dbf988;">propriedades</a>, 
+        <a style="color: #88c6f9;">valores</a> 
+        para as respetivas propriedades e um <a style="color: #d988f9;">conteúdo</a>
+    </p>
+
+    <div id="miniBox" contenteditable="true" spellcheck="false">
+
+        <br><br>
+        <a style="color: #f98b88;">&lta</a> <a style="color: #dbf988;">href</a>="<a style="color: #88c6f9;">exemplo de um link atoa</a>"<a style="color: #dbf988;"></a><a style="color: #f98b88;">&gt</a><a style="color: #d988f9">carrega aqui</a><a style="color: #f98b88;">&lt/a&gt </a> 
+        <br><br><br>
+    </div>
+    
+    <div style="height: 8vh;"></div>
+    <div class="selecao">
+        <a href="#content" id="selection">Anterior</a>
+    </div>
+    
+    <div style="height: 50vh"></div>
+    <div style="display: flex; text-align: center; justify-content: center; flex-direction: column;">
+      <a href="#top" style="text-align: center; color: rgb(75, 75, 75); width: 100%; font-size: 1.5;">Voltar ao topo</a>
+    </div>
+    <div style="height: 25px;"></div>
+
+</body>
+</html>
